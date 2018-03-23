@@ -6,5 +6,9 @@ def test(request):
     return HttpResponse("poda dei")
 
 
+def test1(request):
+    return HttpResponse("Hello")
+
+
 
 
